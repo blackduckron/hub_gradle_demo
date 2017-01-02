@@ -16,4 +16,4 @@ include 'api'
 include 'services:webservice'
 */
 
-rootProject.name = 'Ron_Gradle_Hub_Project'
+rootProject.name = 'Gradle_Hub'
