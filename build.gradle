@@ -38,7 +38,7 @@ repositories {
 def String hubUrlCommon = "$System.env.HUB_URL"
 def String hubUrlUser = "$System.env.HUB_USER"
 def String hubUrlPassword = "$System.env.HUB_PWD"
-def hubTimeoutCommon = "300"
+def hubTimeoutCommon = 300
 
 deployHubOutput {
   hubUrl = hubUrlCommon
